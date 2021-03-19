@@ -44,25 +44,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
-
-.arrow {
-  transition: all 0.5s ease-in-out;
-}
-
-/* .arrow::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f078";
-  transition: all 0.5s ease-in-out;
-}
-
-.arrow.active::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f077";
-  transition: all 0.5s ease-in-out;
-} */
 
 .accordion-title:not(last-child) {
   margin-bottom: 0.5rem;
